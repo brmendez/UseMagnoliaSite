@@ -1,0 +1,55 @@
+# osx specific files
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+._*
+*.swp
+*.swo
+*.swn
+ 
+# ignore log files
+*.log
+ 
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+ 
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+.htaccess
+error_log
+fantastico_fileslist.txt
+fantversion.php
+index.php
+license.txt
+wp-activate.php
+wp-admin
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-config.php
+wp-cron.php
+wp-includes
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+wp-content/uploads

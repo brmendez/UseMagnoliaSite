@@ -1,0 +1,29 @@
+
+
+**Important note for users updating to V4.1**
+
+One you update the theme please follow below steps as well :
+
+1. Go to Appearance > Install Plugins
+2. From the list go over Visual Composer
+3. click to update Visual Composer plugin to V4.5.1
+
+
+
+* If you are using Header style 2 please follow below steps :
+
+1. Go to theme options
+2. From Typography > Main Navigation > Main Menu Items Gutter Space
+3. Set your desired left and right spacings
+in Earlier versions this option was not working for header style 2, so it might cause issues after update. therefore you can reduce or increase as you wish.
+
+
+
+Thats all!
+
+Enjoy the update.
+
+
+
+
+

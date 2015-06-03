@@ -1,0 +1,1769 @@
+----------------------------------------------------------------------
+Update Log v4.1.1 - May 10 2015
+----------------------------------------------------------------------
+
++BugFix. Contact Form > corporate style captcha not working
++BugFix. Blog loop wrong date order
++BugFix. Employee shortcode error
++BugFix. some other minor glitches and fixes
+
+
+
+
+----------------------------------------------------------------------
+Update Log v4.1 - May 10 2015
+----------------------------------------------------------------------
+
++New Feature. New Template : Themisto
++New Feature. New Template : Adrastea
++New Feature. New Sticky Header effect style : Lazy
++New Feature. Single Employee post along with 3 awesome styles you can choose for single pages
++New Feature. Visual Composer updated to v4.5.1
++New Feature. woocommerce v2.3.8 compatibility
++New Feature. Master Slider updated to V2.14.2
++New Feature. LayerSlider updated to V5.4.0
++New Feature. Revolution Slider updated to V4.6.93
++New Feature. Accordion, Tabs and News Tab shortcode > options to disable mobile view (Some users didn’t like the idea so we had to add options to disable the feature)
++New Feature. color and size option for description section in the Chart shortcode
++New Feature. added Excerpt Length to Portfolio loop
++New Feature. Added Cart icon to header style 4
++New Feature. Included Helvetica neue font in typography setting
++New Feature. Added SANCHEZ google font into theme
++New Feature. Added Skype to Social Network shortcode
++New Feature. Ability to set mobile header height
++New Feature. Showing shopping cart icon on header style 3
++New Feature. Possibility To Force Youtube Videos To Play In HD (read option description)
++New Feature. Google font added all font-weights that missed in older versions.
++New Feature. TGM Activation Plugin updated to fix some issues caused some users get fatal errors
++Improvement. Updated Isotope plugin to V2.2
++Improvement. RTL support for Isotope
++Improvement. Updated Infinite Scroll plugin to V2.1
++Improvement. Page Section > Background video is not centered in different window sizes
++Improvement. Responsive menu >  3rd level items should be different from 2nd level ones
++Improvement. Used Enqueue Script instead of hard coding vimeo and youtube JS references
++Improvement. Edge Slider's full height possibility on Ganymede template
++Improvement. Added Helvetica Neue font family to the safe fonts list
++Improvement. Header Style 2 > Menu Gutter Space option in theme options is not working (For those who are using Header Style 2 : you should modify the option to get the desired spacing)
++BugFix. when default homepage is not selected page title gets disabled in whole website
++BugFix. Testimonial fade in animation not working
++BugFix. Search results page meta date links to 404 page if the result is a page and not blog
++BugFix. When viewing Swipe slideshow on firefox it shows all images stacked and piled instead of having it as slideshow
++BugFix. IE >> issue on Page Section's fixed position
++BugFix. Blog shortcode Spotlight style cuts off
++BugFix. Button shortcode >> Outline style > Animate Icon does not work in XXLarge, XLarge sizes 
++BugFix. CSS fix for PRINT view on pages or posts that have sidebar
++BugFix. Animated Columns icon + title is not showing
++BugFix. Blog Loop > Featured Image slider effect in Grid blog listing is not responsive
++BugFix. Icon Box 2 extra class name not showing on front end
++BugFix. contact form > Corporate Style incorrect tab order
++BugFix. Fancy Contact page content is getting cut off in two places in mobile view (issue in JS execution order)
++BugFix. Facebook share adds extra none sense numbers into shared article
++BugFix. preloader does not work in some pages
++BugFix. Sticky Header option can not be disabled
++BugFix. Header Style 2 does not support Transparent mode 
++BugFix. demo content importer fails in some installation, fixed by using a conditional php functions if supported. Some other improvements are also done in this part.
++BugFix. Trip adviser script is not working in theme
++BugFix. Not able to scroll responsive menu items in Europa template with landscape orientation
++BugFix. Ken burned edge slider effect is not working on IE 9
++BugFix. Contact Form not clearing for after sending
++BugFix. Some translation issues fixes
++BugFix. Some validation errors fixes
++BugFix. Edge Slider description section does not calculate position correctly in firefox
++BugFix. Edge Slider button linking to page section of same page leads to wrong position
++BugFix. Flip Box extra space when used in three columns
++BugFix. Flip Box rendering error on Mobile
++BugFix. RTL support issue for Accordions and Tabs
++BugFix. IE9 > some issues in main navigation 
++BugFix. Full screen main navigation throws extra text in footer
++BugFix. IE9 > Contact Form placeholder text not showing. fixed by a JS plugin
++BugFix. Portfolio single item bad rendering on mobile view
++BugFix. Sub menu does not show correctly on iPad Landscape mode
++BugFix. Preloader's logo is not shown in Firefox
++BugFix. Blog Listing incorrect order due to Isotope bug
++BugFix. IE9>> Page Section background with parallax effect is not showing 
++BugFix. Social Network shortcode XING icon is not showing
++BugFix. Visual Composer built-in shortcode > Icon shortcode not working
++BugFix. Visual Composer built-in shortcode > default image shortcode has cross broswser problems
++BugFix. Blog loop newspaper style & slideshow issue (when resizing there are some glitches)
++BugFix. Demo site sticks into loading mode while checking with IOS 8
++BugFix. Refactored blog loop meta section wrapper
++BugFix. Sub level menu items > current menu item text and background color are working
++BugFix. IE9 issue with button hover performance in Savvy style
++BugFix. In Flip Box shortcode, content on Front side are not in center
++BugFix. Reset to default in theme options doesnt work properly
++BugFix. Switch between IN and ON for search results page
++BugFix. Blog Carousel bfi_thumb bug
++BugFix. Disable sticky header doubles page title size
++BugFix. Other none logged minor fixes and code refactoring.
+
+
+ 
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0.9.3 - 25 April 2015
+----------------------------------------------------------------------
+
++New Feature. Wordpress V4.2 Compatibility
++New Feature. woocommerce v2.3.8 compatibility
++SecurityFix. TGM-Plugin-Activation updated to V2.4.1  > Security release to improve escaping for URLs and attributes.
+
+This update is intended for Wordpress and Woocommerce compatibility. It also eliminates a security vulnerability caused by TGM-Plugin-Activation.
+We are intensively working on Jupiter V4.1 and aim to release it on the end of this month.
+
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0.9.2 - 10 March 2015
+----------------------------------------------------------------------
+
++New Feature. Master Slider Updated to V2.9.12
++New Feature. News loop ability to filter based on categories
++Improvement. Device Visibility option more options added and more descriptive for end users
++Improvement. Tab Slider minor SEO issue
++Improvement. Woocommerce search widget css improvement
++BugFix. php problem in recent portfolio posts widget
++BugFix. Ganymede template responsive menu problem
++BugFix. One page navigation does not have animation on header style 4
++BugFix. Google SERP shows dynamic styles as a bad practice (now they are as HTML comments so search engine bots will ignore them)
++BugFix. search.php “By” keyword translation problem
++BugFix. SSL bug for YOUTUBE and VIMEO links
++BugFix. Minor issues on News loop (Firefox)
++BugFix. iPhone 6+>> Circle Progress bars not showing
++BugFix. One Page navigation with absolute link does not have animation
++BugFix. Some other minor bugs fixed in beta testing period related to mobile testings and various styling issues
+
+
+----------------------------------------------------------------------
+Update Log v4.0.9.1 - 2 March 2015
+----------------------------------------------------------------------
+
++BugFix. Full height page section bug
++BugFix. iPhone 6 > Chart shortcode now showing correctly
++BugFix. IE > news shortcode minor css glitches
++BugFix. Button extra class name bug
++BugFix. Some other minor bugs and improvements
+
+
+----------------------------------------------------------------------
+Update Log v4.0.9 - 27 February 2015
+----------------------------------------------------------------------
+
++New Feature. Woocommerce V2.3.X compatible
++New Feature. Skip to the next section button option for page section
++New Feature. Libre Baskerville font family added to google fonts
++Improvement. Edge One pager enhanced for all screen to hold large contents.
++Improvement. Localisation text domains are eliminated. 
++Improvement. Full screen menu scroll issues in some devices
++BugFix. Header Toolbar option bug when header style 4 selected
++BugFix. Charts shortcode issue => numbers do not appear in some cases
++BugFix. Some RTL bug fixings
++BugFix. Edge One pager bug in IE
++BugFix. Portfolio/Blog Left/Right arrow navigation covers responsive menu icon
++BugFix. Page Section background hiding on screens smaller than 1024px
++BugFix. Skip button of Edge Slider calculates wrong and does not animate in correct position => Instead use page section skip button rather than edge slider single slide scenario
++BugFix. Edge Slider Pagination jump on click
++BugFix. In the Pricing table TICK icon is not showing
++BugFix. Header Social icons and menu items conflict with each other
++BugFix. IE11> mouse pointer over photos on Blog-teaser > some visual glitches on hover.
++BugFix. IE11> hover scenario issue (laggy) (Portfolio Grid – Three Column)
++BugFix. Single page menu scenario issue in mobile devices
++BugFix. Header is not working while sticky header is disabled
++BugFix. Edge Slider Caption and Buttons not showing on IE 11
++BugFix. Some other minor bug fixings and glitches
+
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0.8 - 6 February 2015
+----------------------------------------------------------------------
+
++New Feature. Visual Composer Updated to V4.4.2 (update it from appearance > install plugins)
++New Feature. Ability to add <br> tag inside address option of JP - Contact Info Widget (now is HTML enabled and you can add HTML tags too)
++Improvement. Page section > video backgrounds > until loading the video, the fallback image will be shown.
++Improvement. Employee shortcode content is not available in search results
++BugFix. Fixed footer is not playing well with tablets
++BugFix. Image Gallery pagination issue (php wrong calculations)
++BugFix. Page Section background with Parallax effect and cover whole background options on iPad issue
++BugFix. Device Visibility option is not available in Page Section anymore
++BugFix. Self Hosted Audio Player is not working due to requireJS. the script refactored and enhanced too.
++BugFix. Breadcrumbs multiple category separator error 
++BugFix. Mobile menu submenu item opening error in Android 4.3 stock browser
++BugFix. Date Picker problem due to requireJS error
++BugFix. Small blank space on top of Page Section when is parallax enabled and added to top with transparent header enabled.
++BugFix. Fixed Background image for Page Section error (with the new solution some users are facing issues)
++BugFix. Some of stock Visual Composer shortcodes DO NOT work with theme
++BugFix. Default Masonry Media Grid shortcode of Visual Composer error
++BugFix. Adding Conditional Logic on Gravity form throws error on theme
++BugFix. Hegemone full screen menu scroll problem
++BugFix. Start Tour link has conflict with menu items
++BugFix. Adding Header Toolbar section in Header style 4
++BugFix. Youtube/Vimeo background video is not full screen
++BugFix. IE11>> issue on parallax
++BugFix. Header style 4 mobile menu z-index problem
++BugFix. Scroll icon on CYLLENE's homepage template, has a harsh scrolling effect instead of smooth scroll
++BugFix. Spotlight 2/3 columns issue on "Load More Posts" 
++BugFix. IE11>> Direction Nav in Edge slider does not show any image 
++BugFix. Header style 2 cart icon is misalliged
++BugFix. youtube and vimeo page section mute and autplay was missing
++BugFix. Typekit fonts 2 minor bug
++BugFix. Button shortcode device visibility is not working correctly
++BugFix. One Page menu links not working on mobile menu view
++BugFix. Some other minor fixes
+
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0.7.4 - 22 January 2015
+----------------------------------------------------------------------
+
++BugFix. Edge slider does not load in some cases and effects are not correctly working
++BugFix. Google Map does not load in some cases.
++BugFix. Image Gallery issue with custom links and pagination
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0.7.3 - 21 January 2015
+----------------------------------------------------------------------
+
++BugFix. T_function error in footer.php (white screen and some modules failure) due to php lower version.
++BugFix. Responsive navigation was not scrollable
++BugFix. Visual Composer > page section issues
++BugFix. Portfolio ajax issue
++BugFix. blur boxes issues
++BugFix. Some other minor fixes
+
+Note please update Visual Composer from Appearance > Install plugins as well.
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0.7.2 - 20 January 2015
+----------------------------------------------------------------------
+
++BugFix. Tabs not working in some cases
++BugFix. If Gradient is used in page section, styles fails to load (JSON error)
++BugFix. an issue causing the page turn to white, no footer, and some other similar errors.
+
+Note please update Visual Composer from Appearance > Install plugins as well.
+
+
+----------------------------------------------------------------------
+Update Log v4.0.7.1 - 20 January 2015
+----------------------------------------------------------------------
+
++BugFix. A bug that causes theme do not load shortcodes while using child theme. please update Visual Composer once updated (From appearance > install plugins)
+
+----------------------------------------------------------------------
+Update Log v4.0.7 - 20 January 2015
+----------------------------------------------------------------------
+
++New Feature. Visual Composer updated to v4.4 (please update Visual composer from Appearance > Install Plugins)
++New Feature. New Template : Hegemone
++New Feature. New Template : Cyllene
++New Feature. Fullscreen Main navigation for header style 3.
++New Feature. Added option to choose font family for milestone shortcode
++New Feature. Revslider updated to most recent version
++New Feature. Slideshow Box > option to add pattern over the slideshow
++New Feature. WP dashboard most loved posts stats widget
++New Feature. option to change product category page titles text
++New Feature. MasterSlider updated to most recent version.
++New Feature. Header cart icon added products count
++New Feature. Option to disable borders in newspaper grid style
++New Feature. Youtube and vimeo integrated into page section background videos
++Improvement. All shortcodes dynamic styles will load in once which will improve performance, fix IE8 issues and prevent W3C validators throwing validation errors.
++Improvement. Modular JS refactoring which helps speed and browser enhancemetns
++Improvement. Second Level items in responsive menu improvement
++Improvement. Animated columns Height improvements
++Improvement. Crimson, Museo Sans, Museo Slap Google Font is now added correctly
++Improvement. Added 100 as font weight in all options needed
++Improvement. Lightbox arrow should be small on mobile device
++Improvement. Menu Item icons should be always lowercase to prevent conflicts
++BugFix. FAQ shortcode is not working on mobile devices
++BugFix. Employee shortcode classic mode link problems
++BugFix. In larger logos, Logo overlaps Responsive Menu
++BugFix. Sortable Portfolio Hiding Other Post on Page
++BugFix. ALL Buttons  are not centred correctly
++BugFix. Portfolio Carousel Modern Style bug > Visible Items at Once option is not working, category option is not showing in editing section
++BugFix. Header style 3 sticky logo position bug
++BugFix. In some instances wrong full height calculation on screen sizes below 767px
++BugFix. Sticky menu is buggy when Background Fixed option is enabled in header style 2
++BugFix. Mobile Menu Trigger Hamburger Icon not working on Windows Phone
++BugFix. Corporate style of contact form shortcode is not sending emails through
++BugFix. Superlink option that causes theme options fail to compile normally in some cases.
++BugFix. IE9 bug in portfolio single post
++BugFix. IE9 Custom List bug
++BugFix. IE9 Tab Slider bug
++BugFix. IE11 Woocommerce carouse issue
++BugFix. IE 11 > Blog Teaser meta section shows at the top incorrectly
++BugFix. IE9 Image Gallery bug > If you add an image gallery with masonry style 1 in IE9 you will see that the plus (+), sign which should show on hover, shows always and in wrong place 
++BugFix. Isotope not playing well on News shortcode
++BugFix. bfi_cropping undefined function bug in wpml translation
++BugFix. Edge One Pager and mobile menu conflict
++BugFix. Blog Newspaper style, Isotop does not calculate position correctly
++BugFix. Laptop Slider extra missing closing tag bug.
++BugFix. The sticky header is showing in front of lightbox all the time (in specific cases)
++BugFix. Image Gallery title and subtitle position problem
++BugFix. Smooth Scroll on Metis incorrect positioning
++BugFix. Hamburger icon does not react unless we click 3-4 times
++BugFix. Responsive menu has extra scroll bar in Firefox
++BugFix. Some minor bug fixings and glitches
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0.6.1 - 20 December 2014
+----------------------------------------------------------------------
+
++PluginUpdate. Visual Composer updated to V4.3.5 to fix WP4.1 issues. Update plugin from appearance  > install plugins > update visual composer.
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0.6 - 29 November 2014
+----------------------------------------------------------------------
+
++New Feature. Layer Slider updated to most recent version
++Improvement. Now import process takes less than a minute and the possibility of failure is very minimum
++Improvement. Included Roboto Slab google font.
++Improvement. Added a warning message to show up in appearance > menus section if max_input_vars value is less than the menu options
++BugFix. LayerSlider sample slider import problem
++BugFix. Lightbox z-index bug in videos
++BugFix. Portfolio posts list in backend > excerpt causes thumbnails show wrong images
++BugFix. Portfolio shortcode options category option does not show up
++BugFix. VC ultimate add ons plugin compatibility issues
++BugFix. Product category widget post count glitches
++BugFix. Edge Slider down arrow wrong offset value
++BugFix. Some IE9 issues
++BugFix. Product carousel bug in IE
++BugFix. Contact info shortcode email icon is missing
++BugFix. Some touch device detection bugs
++BugFix. Main menu overriding issues (removed !important)
++BugFix. All !important declarations are removed form where is possible to provide maximum compatibility with custom extensions
++BugFix. Testimonial widget colouring bug in footer with dark background
++BugFix. portfolio list thumbnails does not show up correctly
++BugFix. A bug related to image resizing in library was not propotional due to bfi_cropping bug
++BugFix. Some texts were not localised
++BugFix. portfolio posts widget video icon was missing
++BugFix. Pagination next previous icons were invisible
++BugFix. Setting secondary menu location for shop page only works in first shop page and not inner product pages in woocommerce
++BugFix. Contact Form shortcode in Corporate style does not show the phone input field even if we set it from shortcode edit screen
++BugFix. Creating image gallery inside a post (Not Page), and enabling pagination for the gallery with the Load More Button option, is not showing in front end. 
++BugFix. Image_width not defined error, in Video Portfolio listing when loaded by Ajax.
++BugFix. Contact Form shortcode in classic mode and with captcha being off, is not sending emails the submit button does not work at all.
++BugFix. Flip Box shortcode with image is not responsive in Firefox 33.1
++BugFix. Animated Columns Shortcode, Button Color (Active), option does not show selected color in front end.
++BugFix. There is an alignment issue in IE10 for the header search and cart icon.
++BugFix. Various Minor bug fixings
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0.5.1 - 29 October 2014
+----------------------------------------------------------------------
+
++New Feature. Option to disable blog meta section in blog archive loop (check theme options > blog)
++BugFix. Captcha bug in child themes
++BugFix. Theatre slideshow wrong padding values
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0.5 - 28 October 2014
+----------------------------------------------------------------------
+
++New Feature. RTL support : still in beta. report bugs if you find any glitch.
++New Feature. Ken Burn and 6 new Edge Slider effects. :)
++New Feature. Gradient Background Color option for page section.
++New Feature. New Contact Form shortcode style : Corporate
++New Feature. Skill meter new colouring options
++New Feature. Portfolio Sortable align option
++New Feature. Captcha option to all contact forms including contact form widget, shortcode and quick contact form.
++New Feature. Align option to Social Networks widget
++New Feature. Chart shortcode color and size options
++New Feature. Revolution slider update to v4.6.3
++New Feature. Woo commerce v2.2.7 compatibility
++New Feature. Font awesome library updated (v4.2)
++Improvement. Mobile friendly tabs and accordions.
++Improvement. Slideshow Box minor enhancements and preloader layer added
++Improvement. WPML language selector will show native languages (instead of in english).
++Improvement. Animated columns JS improvements
++BugFix. Woo commerce product carousel on load was showing all images in multiple rows.
++BugFix. Edge One Pager issue with responsive menu in mobile devices
++BugFix. IE Edge Slider next/prev preview image not showing
++BugFix. Custom list new library icons icons were not working and line height issues
++BugFix. Lightbox prev/next not working
++BugFix. Header style 4 animation effect 2 issue in IE and FF
++BugFix. Visual Composer minor update to v4.3.4.1 > update through appearance > install plugin.
++BugFix. Woocommerce shop widget area will now show in woocommerce archives.
++BugFix. Clients shortcode > carousel mode auto mode minor issues
++BugFix. Blog filter by author were not working in some installations
++BugFix. Device visibility option in page section issue
++BugFix. Flip boxes issues in IE 9 and IE 10
+
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0.4 - 14 October 2014
+----------------------------------------------------------------------
+
++New Feature. Theatre shortcode (Videos in Laptop and LDC)
++New Feature. New Template : Locaste 
++New Feature. New Template : Euanthe
++New Feature. New Template : Eurydome
++New Feature. New Template : Megaclite
++New Feature. Top Level Menu Item Letter spacing option
++New Feature. New Contact form style : corporate style
++New Feature. Master Slider added to the list of premium plugins
++New Feature. LayerSlider updated to V5.3.1
++New Feature. Woocommerce category is now toggle base for sub categories 
++Improvement. Portfolio Sortable combined with load more some adjustments to prevent overlaps
++Improvement. Twitter Time is now translatable
++BugFix. Accordion shortcode contents link were not working
++BugFix. Toggle shortcode icon were not working
++BugFix. Edge Slider & Edge One Page minor responsive issues
++BugFix. Vertical Header mobile mode logo misalignment 
++BugFix. Vertical header > transparent header > unfold footer padding issue
++BugFix. Cart icon misalignment in header style 2 > main navigation style 3
++BugFix. Page Section intro effects minor bugs
++BugFix. Contact form Widget loading icons issue
++BugFix. Portfolio single layout default option not working
++BugFix. Posts carousel hover icons are missing in some post types
++BugFix. Minor bug in vertical header social networks icons in sticky mode
++BugFix. Edge Slider, Edge One Pager and page section overlay issues in IE8 and IE9
+
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0.3 - 1 October 2014
+----------------------------------------------------------------------
++BugFix. Install Templates > Metis XML content were misplaced.
++BugFix. A bug in page section that was creating issues when last page (deprecated option) was enabled.
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0.2 - 1 October 2014
+----------------------------------------------------------------------
+
++New Feature. New Template : Sponde
++New Feature. New Template : Metis
++New Feature. New Template : Pasiphae
++New Feature. Option to change Header Style Burger Icon size 
++New Feature. Option to disable sticky header (Accessible through Theme Settings > General > Header > Sticky header behavior).
++New Feature. Padding and Background colour option to dropcaps fancy style
++New Feature. Icon Box shortcode link colour option
++New Feature. Icon Box shortcode minimal style icon size option
++New Feature. Option to disable blog single post title (inside content)
++New Feature. Social network widgets, short codes and header section icons background colour option
++New Feature. Banner Builder added into short codes list
++New Feature. iCarousel slideshow added into shortodes list
++Improvement. Charts shortcode minor improvements
++Improvement. Header logo will stay on vertically middle relative to header height.
++Improvement. Many CSS improvements.
++BugFix. Empty H2 tag in header cart widget
++BugFix. Few WPML fixes
++BugFix. Main Navigation sub level minor fixes
++BugFix. Minor Flipbox CSS issues and Firefox bugs
++BugFix. Page Title box shortcode overlay mask opacity issue
++BugFix. Social network widget and shortcode minor css fixes
++BugFix. Header Search full screen style > on click input focus issue 
++BugFix. Page Meta options > Sticky logo and Mobile logo options were not working
++BugFix. Image Shortcode IE bug
++BugFix. Accordion open tab index bug
++BugFix. Main Navigation hover style 1 bug
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0.1 - 22 September 2014
+----------------------------------------------------------------------
+
++New Feature. New Template added : Praxidike
++New Feature. Header responsive icon color option
++New Feature. Header Style 4 logo top bottom padding
++New Feature. Header Style 4 logo align
++New Feature. Site Pre-loader bar color option
++Improvement. Full screen search form responsive issues 
++BugFix. Undefined error in page demo content importer
++BugFix. Header toolbar search form minor bugs
++BugFix. IE issue animated columns
++BugFix. IE issue for hover style 5
++BugFix. Edge One pager titles cut off
++BugFix. header sticky issue in safari
++BugFix. Button Shortcode > icons > are not vertically aligned.
++BugFix. Icon box shortcode paragraph color option does not work  
+
+
+
+----------------------------------------------------------------------
+Update Log v4.0 - 20 September 2014
+----------------------------------------------------------------------
+
++New Feature. The whole header recoded. new header selector with multiple styles, transparent header,… and possible to select per page/post basis.
++New Feature. Once Click demo templates install.
++New Feature. 4 Header styles are added with align possibility.
++New Feature. Visual Composer updated to most recent version (Front end editor is temporarily disabled due to some conflicts).
++New Feature. Footer top border thickness and color options.
++New Feature. Typekit fonts integration.
++New Feature. Mega Menu Widgets and Backgrounds feature.
++New Feature. now logos can be changed per page/post basis
++New Feature. now Header styles can be changed per post/page basis
++New Feature. Sticky header border bottom color option.
++New Feature. Side dashboard feature.
++New Feature. Slideshow Box Shortcode
++New feature. mega  Network widget & shortcode new styles and skinning options added.
++New Feature. Now all google font variation for selected font family will be loaded (if available)
++New Feature. Animated column shortcode
++New Feature. Image Box shortcode
++New Feature. Flip Boxes shortcode
++New Feature. Image Gallery Shortcode Masonry style
++New Feature. Page Section Intro effects.
++New Feature. 5 Main navigation hover styles.
++New Feature. Header section social networks size and multiple styles added.
++New Feature. Sticky Header Bottom Border Color option.
++New Feature. Header Bottom Border Thickness option.
++New Feature. Main Navigation Top Level Hover & Current Skin Color option.
++New Feature. Main Navigation Sub Level Box Border Top Color option
++New Feature. Main Navigation Sub Level Box Width option.
++New Feature. Main Navigation Mega menu title color
++New Feature. Main Navigation option to disable Sub Level Box Shadow
++New Feature. Main Navigation Sub Level Box Border Color option.
++New Feature. Image Resize Quality option in theme options.
++New Feature. New Employees style.
++New Feature. Option to change 404 template layout.
++New Feature. 404 design tweaks
++New Feature. Revision capability to all custom post types.
++New Feature. Add default layout for blog post layout to feed from theme settings
++New Feature. Update instafeed to new version
++New Feature. Typewriter feature.
++New Feature. Image gallery shortcodes : Add option to choose between WP image sizes and image cropper
++New Feature. Shop loop : Add option to choose between WP image sizes and image cropper
++New Feature. Button Flat style text and background hover colour option.
++New Feature. Full screen search form.
++New Feature. Main Navigation Sub Level text size, text transform, font weight options.
++New Feature. Mega Menu column dividers colour option. 
++New Feature. All slider and carousel arrows replaced with new line icons.
++New Feature. All Color pickers alpha support.
++New Feature. Blog Gallery post type feature.
++New Feature. New request social network icons are added (Weibo, Wechat, Renren, IMDb, vk.com, instagram, qzone, WhatsApp).
++New Feature. Comments support to pages.
++New Feature. Sticky header offset option
++New Feature. Sticky header fixed and scroll effects
++New Feature. Milestone new design, text align and text size and colour options are added.
++New Feature. Columns padding and background options.
++New Feature. Site preloader, site wide or per page/post basis.
++New Feature. Blog, Portfolio and shop page navigation arrow buttons are added with unique effects.
++New Feature. Custom sidebar option now accepts all predefined widget areas too.
++New Feature. New options to divider shortcode (width, thickness and colour).
++New Feature. New loading icon added to anywhere applicable.
++New Feature. Visual Composer builtin shortcodes are preserved and its now compatible with Visual composer addons.
++New Feature. Title Box => Letter spacing and Stroke size and colour options
++New Feature. Tab Slider shortcode
++New Feature. Header Cart section design changed.
++New Feature. Main Navigation Sub Menu width option
++New Feature. Page title box shortcode with multiple styles.
++New Feature. Icon Box 2 shortcode with new design.
++New Feature. New line font icons.
++New Feature. Font Icon library page to search and locate icons easily.
++New Feature. Button shortcode new styles and animations.
++New Feature. Google Map option to set it full height.
++New Feature. Now possible to have different footer widgets per page/post basis.
++New Feature. Fancy title font style option
++New Feature. Shop Carousel New style
++New Feature. Option to change paragraph line height
++New Feature. Option to change body text line height
++New Feature. 3 Gallery masonry style.
++New Feature. Gallery new hover styles and options.
++New Feature. Main Navigation one page scroll performance fixes.
++New Feature. New Contact Form style
++New Feature. Contact Form loading coded into button itself and the whole shortcode UI enhanced.
++New Feature. Page Title > option to activate bottom divider
++New Feature. Upload Sticky header logo
++New Feature. Upload Light header logo
++New Feature. Upload Dark header logo
++New Feature. Upload Mobile header logo
++New Feature. Testimonial slideshow animation speed & slideshow speed options
++New Feature. One half page section option.
++New Feature. Option to change excerpt length in blog shortcode.
++New Feature. Option to change excerpt length in blog showcase shortcode.
++New Feature. New Blog and portfolio next/prev navigation.
++New Feature. Login form now works with ajax callbacks.
++New Feature. Edge Slider Parallax feature
++New feature. Edge slider multiple pagination styles.
++New feature. Edge slider multiple PageNav styles.
++New Feature. Clients shortcode new style and options.
++New Feature. Clients shortcode gutter padding option.
++New Feature. Testimonial shortcode new styles.
++New Feature. Option to change footer gutter space
++New Feature. Option to change footer top and bottom paddings
++New Feature. Fixed footer option.
++New Feature. Blog Teaser Style
++New Feature. Blog Spotlight Style
++New Feature. Blog Magazine Style
++New Feature. Blog Thumbnail Style
++New Feature. Now you can disable image cropping and choose WordPress default resized images.
++New Feature. Portfolio Recoded and redesigned.
++New Feature. Portfolio 6 new hover styles
++New Feature. Portfolio Masonry Style
++New Feature. Blog Portfolio New Sortable style.
++New Feature. Edge Slider caption size, custom colour options
++New Feature. Edge Slider Header skin switcher option.
++New Feature. Option to disable social network WooCommerce single post
++New Feature. Edge One  Pager Shortcode
++New Feature. Edge Slider letter spacing option.
++New Feature. Full Width option to footer section
++New Feature. Button x-large and xx-large sizes
++New Feature. Button roundedness option (pointed, rounded, circled)
++New Feature. Skill Meter shortcode multiple styling options added.
++New Feature. Portfolio Ajax description metabox option instead of the main content (if left blank the main content will be used).
++New Feature. portfolio custom archive template and fixed some bugs related to it.
++New Feature. google map shortcode : map type option
++New Feature. LayerSlider updated to most recent version
++New Feature. Revolution Slider updated to most recent version.
++New Feature. Minify CSS files option.
++New Feature. Clients shortcode margin button option.
++New Feature. Page Section Full width option.
++New Feature. Chart Shortcode icon size and colour option
++New Feature. Footer Copyright text font size and letter spacing
++New Feature. Footer Links Hover Color option
++New Feature. Sidebar Links Hover Color option
++New Feature. Side Dashboard Links Hover Color option 
++Removed. blank template has been removed (Read V4 upgrade note).
++Removed. "Sticky Header" option in theme settings has been removed.
++Removed. Under construction feature removed.
++Removed. 1/5 column structure has been removed from Visual composer due to some major technical issues (incompatibility with visual composer v4.2)
++Improved. LCD and Laptop slideshow visuals replaced with flat images.
++Improved. Theme markup semantics improvements for SEO best practices.
++Improved. Header toolbar & Its elements design enhancements.
++Improved. Shop loops design touches and responsive fixes.
++Improved. Page Title in Homepage option has been removed (Read V4 upgrade note).
++Improved. Typography settings UI improvements.
++Improved. Woocommerce Cart page iphone portrait issue
++Improved. Employee and Icon Box shortcode blur style issues. Its disabled in touch devices for better performance.
++Improved. Parallax feature performance enhancements.
++Improved. mk-smooth will be added dynamically wherever needed for smooth scroll.
++Improved. Subnav widget now supports multi level.
++Improved. Custom Menu widget sub menus are converted to accordions.
++Improved. Text Transform default option added to page composer options.
++Improved. Main Navigation script recoded to fix multiple issues.
++Improved. Now all Page Meta options works in Shop archive page.
++Improved. 404 CSS tweaks
++Improved. Notice in Custom Post Types edit page to instruct on how to view the posts.
++Improved. gallery ajax load more does not when multiple gallery short codes are in the same page.
++Improved. Blog and portfolio load more feature conflicts (you will need to edit the short codes using page composer and save it again to store a unique ID)
++Improved. Revise overall line heights
++Improved. portfolio classic style & Portfolio carousel classic style CSS tweaks
++Improved.  Search loop CSS tweaks
++Improved. Portfolio carousel new hover styles are added.
++Improved. circle image frame shortcode minor bug fixings
++Improved. Portfolio classic style design enhancements.
++Improved. Portfolio sortable design enhancements.
++Improved. All external jQuery plugins are updated to most recent version.
++Improved. Theme settings > options locations and descriptions are changed for maximum usability. 
++Improved. Main navigation menu icon enhanced. 
++Improved. Quick Contact form stylings enhanced and updated.
++Improved. page section code improvements
++Improved. shop single loop, product image : now will show original size without any crops and resize
++Improved. Header Banner Video is removed in mobile devices and replaced with preview image.
++Improved. Date format in comments.php changed to support all calendar.
++Improved. Breadcrumbs recoded and fixed all issues related to shop and other single posts. Now in more depth results.
++Improved. Flexslider updated to v2.2.2
++Improved. Lightbox plugin replaced with a premium plugin fancy box to be more performant and mobile friendly.
++Improved. General JS speed and memory improvements
++Changed. Widgets Folder is moved to theme root folder.
++Changed. Main stylesheet and main javascript file names changed from theme-styles.css, theme-scripts.js to styles.css, scripts.js
++Changed. Child theme style.css changed (import styles no longer needed).
++BugFix. Header.php extra html tag
++BugFix. Twittter widget undefined widget_id notice.
++BugFix. Main Navigation sub menu cut off when is out of the screen viewport.
++BugFix. contact form 7 bugs and improvements.
++BugFix. Fix the opacity issue in IE8 in hover portfolio issues
++BugFix. In Firefox and Explorer the next previous not working in portfolio carousel
++BugFix. Single portfolio stick template not working correctly
++BugFix. Woocommerce Upsells loop opacity left zero causing it to stop working.
++BugFix. WPML portfolio filter issue
++BugFix. Visual Composer > load template issue with page sections.
++BugFix. Simple google map was not working.
++BugFix. Audio player undefined variable error
++BugFix. Blog and portfolio single fullwidth row issues.
++BugFix. Blog, Portfolio, news and Gallery shortcode Isotope script enhanced.
++BugFix. Edge Slider overlay colour issue that was affecting other slides too.
++BugFix. Page Section shortcode videos issue z-index when placed at top in touch devices.
++BugFix. Full height Page section is not fully full height, leaving extra space after the content
++BugFix. Main Navigation one page scroll stops in wrong locations.
++BugFix. Testimonial Slideshow does not work in ajax portfolio content.
++BugFix. Switching off the iCarousel post type from Theme Options -> Advanced -> Manage Theme -> iCarousel Post Type will not make the iCarousel menu item removed.
++BugFix. Google map inside hidden tab causes to stop working.
++BugFix. Text Block P tag in first paragraph issue.
++BugFix. Pricing table responsive fixes.
++BugFix. Theme Settings Loading box issue.
++BugFix. mk-smooth does not calculate the height correctly
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.9.6 - 11 September 2014
+----------------------------------------------------------------------
+
++ Updated. Woocommerce v2.2 compatibility fixes
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.9.5 - 8 September 2014
+----------------------------------------------------------------------
+
++ BugFix. Woocommerce Cart page responsive issue.
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.9.4 - 5 September 2014
+----------------------------------------------------------------------
+
++ Updated. Revolution Slider updated to most recent version.
+
+Note : A Serious Vulnerability has been discovered in this plugin and immediate action is required. <a href="http://marketblog.envato.com/general/plugin-vulnerability/">Learn More.</a>
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.9.3 - 22 May 2014
+----------------------------------------------------------------------
+
++BugFix : If you are using child theme please update immediately to fix multiple bugs you have encountered since v3.9.2
++BugFix : Header toolbar dropdown items were hidden behind header
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.9.2 - 17 May 2014
+----------------------------------------------------------------------
+
++ New Feature. Woocommerce v2.1.9 compatible
++ New Feature. Custom Box shortcode border thickness option
++ New Feature. Add option to prevent image cropping in shop loop.
++ New Feature. Added Social share to news single post
++ New Feature. Added LinkedIn social share icon to portfolio posts
++ New Feature. Remove Page Title & Footer combination in pages.
++ Improvement. BBpress responsive improvements
++ Improvement. Video sections will not play in touch devices and preview image will be used instead. IOS has bug with video z-index and blocks important elements such as header.
++ Improvement. Google maps and video become SSL friendly.
++ Improvement. vc_row and vc_column has been removed from shortcode generator elements to prevent issues when using in text block shortcode
++ BugFix. Some Edge Slider bug fixings
++ BugFix. Bug on Woocommerce image cropping
++ BugFix. Moving image shortcode in firefox issues
++ BugFix. One Fifth column bug
++ BugFix. Child theme style.css moved as last style file
++ BugFix. Social Share icons not working in portfolio ajax
++ BugFix. Edge Slider mk-smooth were not working inside the slide
++ BugFix. BBpress pagination were not working in WP3.9
++ BugFix. Edge Slider in IE11
++ BugFix. Testimonial conflicts in ajax portfolio
++ BugFix. Portfolio extra class options were not working
++ BugFix. Many minor bugs and glitches
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.9.1 - 24 April 2014
+----------------------------------------------------------------------
+
++ Fixed. Extra class option for rows were not working
++ Fixed. child theme style.css changed the order
++ Fixed. LayerSlider new version skin were missing for Jupiter
++ Fixed. main Navigation smooth scrolling feature were not working
++ Fixed. Some other minor bug fixings
++ Removed. Google map meta option removed from front-end. please use advanced google map shortcode instead
++ Removed. Footer Twitter meta options and front end scripts removed. 
++ Removed. Header Notification module removed.
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.9 - 23 April 2014
+----------------------------------------------------------------------
+
++ New Feature. WordPress V3.9 compatible
++ New Feature. Woocommerce v2.1.7 compatible
++ New Feature. Shop category design
++ New Feature. Complete recoding in woocommerce section
++ New Feature. Option to change shop loop image 
++ New Feature. Shop layouts improved
++ New Feature. Shop loop image quality option
++ New Feature. Woocommerce images in single and loop cropping and exact sizing
++ New Feature. Product loop images quality and single post
++ New Feature. Product multicolumn support
++ New Feature. Add Woocommerce catalog mode. all shopping features will be disabled
++ New Feature. Woocommerce is now a main tab item in theme options and will be viewed if plugin is active.
++ New Feature. Theme options is highly modified to prevent memory exhaustion's, Its performance improvements and some design retouches
++ New Feature. Full height page sections
++ New Feature. Metaboxes design, structure changed for speed and UX.
++ New Feature. Retouch in under construction template as well as count down script.
++ New Feature. Count down Shortcode options changed and UTC timezone is added. and you can use multiple count down shortcode in a page. please update this shortcode as its options has changed and will not work with old attributes.
++ New Feature. Add retina ready and fullwidth row compatible option for portfolio
++ New Feature. Add retina ready and fullwidth row compatible option for gallery images
++ New Feature. Employee image quality loss improved and now retina compatible
++ New Feature. Remove media styles from styles.css and instead its a link to increase rendering speed
++ New Feature. Add option to disable post types
++ New Feature. SmoothScroll script changed with more light and stable query 
++ New Feature. Option for JS magnification
++ New Feature. Option to remove query string from JS and CSS
++ New Feature. Option to disable ajax search
++ New Feature. Portfolios are now full width row compatible
++ New Feature. Some retouches to portfolios
++ New Feature. When resize menu the megamenu screw up in return to desktop mode + the row border suddenly disappears in hover
++ New Feature. Related posts in blog should have the same height.
++ New Feature. Blog related posts set them vertical align top. 
++ New Feature. Manually selected posts__in option for all loops
++ New Feature. Eliminate @import from whole theme specially style.css (will increase rendering speed)
++ New Feature. Related, popular and recent posts widget if no thumbnail set post info was not starting from left.
++ New Feature. Gallery pagination feature
++ New Feature. Gallery load more and infinite scroll feature. 
++ New Feature. Gallery shortcode grid style
++ New Feature. Portfolio posts carousel image quality option
++ New Feature. Option to disable comments in single posts for specific posts
++ New Feature. Add new edge slider animation styles. 8 new animations
++ New Feature. Option to disable fit to background feature for edge slider
++ New Feature. Google map supports 3 address with tooltips
++ New Feature. Advanced google maps shortcode complete recoded
++ New Feature. Parallax effect to advanced google map
++ New Feature. Contact forms anti spamming protection
++ New Feature. Milestone Link Option
++ New Feature. Date Format hard coded. please choose your preferred date from settings => general 
++ New Feature. Filter by category option for FAQ posts
++ New Feature. Add font icon shortcode link target 
++ New Feature. Theme JS scripts maintained and cleaned
++ New Feature. Option to change divider shortcode color (applicable only for 3 styles)
++ New Feature. Make overlay effect and pattern in page section to be used in images as well
++ New Feature. Text transform + letter spacing option for fancy title
++ New Feature. News posts slug option in master key
++ New Feature. Social Share icons for Portfolio ajax
++ New Feature. Schema friendly tags 
++ New Feature. Button Color Option for Pricing tables.
++ New Feature. Button style option for pricing tables.
++ New Feature. Portfolio social share option in single posts
++ New Feature. Better way to manage page structure using only one options (Manage Page Elements)
++ New Feature. Sticky template option to stick page content to header and footer
++ New Feature. Add patten mask for edge slider item for image too
++ New Feature. Add soundcloud support to blog posts
++ New Feature. Client Column style added.
++ New Feature. Client shortcode background cover option added.
++ New Feature. Blog Carousel option to choose between Blog posts and News posts.
++ New Feature. Added print icon to blog single post.
++ New Feature. Option to rows to attach columns to each other.
++ New Feature. Border color option to columns.
++ New Feature. Background colour option to columns.
++ New Feature. Padding option to row that will apply to child columns. padding will apply to all directions and its in percent. 
++ New Feature. menu location for when user is logged in.
++ New Feature. Different menu locations in each page.
++ New Feature. Tossing and Pulse animations to moving image shortcode
++ New Feature. Layer Slider updated to latest version (v5.1.1)
++ New Feature. Revolution Slider updated to latest version.
++ Improvement. Child theme style.css updated
++ Improvement. Twitter shortcode & Widget script recoded
++ Improvement. Responsive state for iPad should be in in one row
++ Improvement. comment form better plugin compatibility using only native hooks
++ Improvement. Comment section styling improved
++ Improvement. Flexslider improvements
++ Improvement. Added prefix for classes , functions in php to prevent any possible conflict with plugins
++ Improvement. Hooks for scripts and styles changed for better plugin compatibility
++ Improvement.Viewport animations speed increased
++ Improvement. Documentation improved
++ Improvement. Some minor edge slider bug fixings and improvements 
++ Improvement. Comment icon is removed from loop and single post when comments are disabled globally or in a single post
++ Improvement. Fix translation child themes. for current users please grab the languages folder from parent theme and place it in child theme root folder. in future do your modifications in child theme language folder PO files
++ Improvement. Dynamic styles improved
++ Improvement. Viewport animations improvements
++ Improvement. Woocommerce product carousel improvements
++ Improvement. Blog loop click on images will directly navigate to single posts
++ Improvement. Page title section in page modification options (top & bottom padding, text size, align,..)
++ Addition. added index.php to folders that missing to prevent direct browsing 
++ BugFix. header search form style 2 is not vertically aligned
++ BugFix. page section inner row is not aligned with the rest of the content outside. padding issue
++ BugFix. ajax portfolio load items after load more not working for appended items
++ BugFix. Print media queries in FF
++ BugFix. All the blog element pagination having an issue when using it multiple times in the page.
++ BugFix. Tabs in blog was not woking
++ BugFix. Blog load more buttons are conflicting with each other
++ BugFix. Page section padding issues
++ BugFix. Ajax Portfolio sound cloud not working
++ BugFix. Comment section some responsive fixes
++ BugFix. portfolio related project hard to click on mobile/ipad
++ BugFix. Blank template error 
++ BugFix. bug fix with RT scrolling
++ BugFix. lightbox issue in load more
++ BugFix. device visibility issues has been fixed for desktop and iPad
++ BugFix. IE8 media queries issues 
++ BugFix. portfolio widget hover icons are not square
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.8.1- 4 March 2014
+----------------------------------------------------------------------
+
++ New Feature. Page composer one fifth columns now is possible.
++ New Feature. Phone number field for contact forms (both shortcode and widget) but you should enable it from its options.
++ New Feature. RevSlider v4.2.3
++ Enhancement. Jupiter skin for layerslider updated
++ Enhancement. Woocommerce skinning issues in some buttons
++ Enhancement. padding issues in responsive state for page section when grid width set to higher than 1140px
++ BugFix. Woocommerce chosen and theme own scripts conflicts
++ BugFix. Banner Video was not playing
++ BugFix. Woocommerce notice regarding outdated templates
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.8- 25 February 2014
+----------------------------------------------------------------------
+
++ New Feature. Full width button
++ New Feature. Full content now can be used in blog grid & newspaper style.
++ Enhancements. Main menu icons was distorted. icon size increased to 16px to match the grid size
++ Enhancement. now you can put flex slider, toggles, portfolio, blog and other scripts into tabs
++ Enhancement. Video backgrounds are issue with IE.
++ Enhancement. Instagram widget completely changed. please kindly visit its widget and set options values.
++ Enhancement. Mega menu navigation container is not fluid in responsive and will fit the screen size.
++ Enhancement. Revolution Slider updated to v4.2
++ Enhancement. Contact forms now works with WP native ajax function. previously was causing issues in some servers.
++ Enhancement. Fullwidth slideshow enhancements and now it can be used in ajax portfolio.
++ BugFix. minor edge slider bugs
++ Bugfix. portfolio modern back face visibility issue in webkit browsers
++ Bugfix. jQuery parallax issue in load page was setting a wrong offset.
++ Bugfix. Woocommece shipping costs not getting updated
++ Bugfix. Woocommerce recurring cusomters box in checkout login button not skinned
++ Bugfix. Woocommerce Coupon section was not working.
++ Bugfix. Header toolbar text boxes set percent widths to not overflow the box.
++ Bugfix. Some minor Woocommerce bug fixings related to v2.1
++ Updated. Documentation & PO files updated
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.7- 20 February 2014
+----------------------------------------------------------------------
+
++ New Feature. Edge slider shortcode now you can use it inside content
++ New Feature. Edge Slider content width now is customisable through their posts.
++ New Feature. Option to set a height to Edge Slider
++ BugFix. all issues related to WooCommerce V2.1
++ BugFix. After load more posts triggering iLightbox was creating double elements
++ BugFix. Gallery grouping in lightbox compatibility with iLightbox plugin 
++ BugFix. Gallery with full width row issues
++ Bugfix. Social share box in modern style first article was getting hidden due to overflow out of the box (when not featured image is selected)
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.6- 14 February 2014
+----------------------------------------------------------------------
+
++ New Feature. Woocoomerce v2.1 Compatible
++ New Feature. Blog Loop classic & modern style option to show full content in the loop.
++ New Feature. Option to set a height to Edge Slider
++ New Feature. Add Video Support to Edge Slider
++ New Feature. Add Background Color in Edge Slider items
++ New Feature. Now you can use custom content in edge slider content using page composer
++ New Feature. Instagram & Sound Cloud social icons added.
++ Improvement. small improvements in UX of Edge Slider
++ Improvement. Header toolbar arrow icon for responsive removed when header toolbar is disabled
++ Improvement. Small minor retouches to theme design 
++ Bug Fix. Logo were not showing in mobile version.
++ Bug Fix. Small minor retouches to theme design 
++ Bug Fix. Minor bug fixings
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.5.4- 3 February 2014
+----------------------------------------------------------------------
+
++ New Feature : Swiper Slideshow shortcode
++ Improvement : Image shortcode alt attribute will be using media attachment “Alt field”
++ BugFix : Portfolio single posts breadcrumbs issue
++ BugFix : Main Navigation bug on active page
++ BugFix : Breadcrumb option duplicate in page metaboxes
++ BugFix : Blank template issues
++ BugFix : Portfolio loop video post type lightbox were larger than screen size. now is a fixed size
++ BugFix : Clients shortcode auto play option was not working
++ BugFix : page section => when first page section option enabled, page jumps after window load.
++ BugFix : Minor reported bugs 
+ 
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.5.3- 22 January 2014
+----------------------------------------------------------------------
+
++ New Feature : an option to upload logo for mobile devices (use it if your logo is really long and resizing it lowers the quality of image)
++ New Feature : Added Metabox option to disable header section form a page .
++ New Feature : Added Metabox Option to disable Footer section from a page.
++ Improvement : Type to filter feature for menus font icons 
++ BugFix : Menus font icons => some fonts were replacing with others
++ BugFix : Blank template php error 
++ BugFix : Type errors
++ BugFix : Minor backend visual bugs 
++ BugFix : Header Toolbar Social icons => MySpace icon were missing
++ BugFix : Banner Slider script fixes  
++ BugFix : Page Metaboxes => Extra Breadcrumbs option 
++ BugFix : Under constructions issue that were causing to not feed from theme options 
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.5.2- 19 January 2014
+----------------------------------------------------------------------
+
++New Feature : Orderby and Order option to gallery shortcode
++Improvement : Edge Slider improvements
++Bugfix : Not all gallery images were showing up
++Bugfix : Button shortcode view port animation issues
++Bugfix : Under Construction template fatal error 
++Bugfix : Minor css fixes
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.5.1- 17 January 2014
+----------------------------------------------------------------------
+
++Bugfix : Edge Slider numerous issues.
++Bugfix : iLightbox Video sites were not working.
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.5- 17 January 2014
+----------------------------------------------------------------------
+
+
++ New Feature : WP 3.8 compatibility and some retouch to design in backend 
++ New Feature : All theme elements are recoded and now using WordPress native hooks.
++ New Feature : Brand new Full width & height slideshow with swipe feature (beta version)  
++ New Feature : Device Visibility Feature for almost all short codes. 
++ New Feature : Gravity Forms styling compatibility
++ New Feature : Brand new Lightbox from iLightbox(premium plugin) is much better responsive.
++ New Feature : Gallery shortcode now supports media attachment Title and alt fields.
++ New Feature : Layerslider Updated to latest version (check plugin.zip to manual update)           
++ New Feature : Revolution slider update to latest version (check plugin.zip to manual update)           
++ New Feature : Shortcode Geneerator is now includes all theme short codes.
++ New Feature : Option to put header and header toolbar in theme main gird
++ New Feature : Schema.org template on Contact info widgets and short codes
++ New Feature : Added link to moving images shortcode
++ New Feature : Option to disable Social share from blog
++ New Feature : Social share buttons added to Portfolio single
++ New Feature : Added link option to process builder
++ New Feature : Option to disable rounded images in Employees simple style
++ New Feature : Outline style button now accepts custom colors
++ New Feature : Flat style button added to button shortcode
++ New Feature : Align right option for header logo
++ New Feature : Linked In share button added to blog loops and single blog page. 
++ New Feature : Now you can have one page navigation smooth scroll outside homepage using main navigation menus.
++ Improvement : Employees now output shortcodes and HTML 
++ Improvement : Main Navigation script revise on its location
++ Improvement : Header toolbar become toggle in mobile version.
++ Improvement : Header toolbar elements retouch on design and facelift 
++ Improvement : Main Navigation Mobile menu design enhancements 
++ Improvement : Fornt End skinning coding recoded and enhanced
++ Improvement : Icon Box icons are not linkable
++ Improvement : XING icon added to social icons
++ Improvement : Portfolio column images are now exactly what you see in column. You should consider changing image heights in short codes where applicable if you see  images are taller than before. This update will enhance image quality to crystal clear, so worth doing some extra work.
++ Improvement : Blog and Gallery column images dimensions are revised for best quality.
++ Improvement : Color pickers changed to wordpress native colour pickers.
++ BugFix : Portfolio ajax issue due to the jQuery transit conflict.
++ BugFix : Portfolio Filter issue with load more. now only filtered items will be viewed if you have used the filter list.
++ BugFix : FAQ posts tags are now outputting correctly.
++ BugFix : Accordions & Toggles title line height were offset to bottom.
++ BugFix : Header toolbar login form now preserved in mobile version.
++ BugFix : Start tour link option were resting in masterkey after save.
++ BugFix : Conflict with qTranslate plugin.
++ BugFix : Products single sharing issue for Pinterest.
++ BugFix : Blog Shortcode extra class option were missing.
++ BugFix : Layerslider database warning.
++ BugFix : Newsletter field width issue.
++ BugFix : Some miss spelling in theme.
++ BugFix : IE9 and IE10 sticky header issues
++ BugFix : Sticky Header minor bugs in some browsers and if header toolbar is disabled.
++ BugFix : Quick contact forms conflicts with other contact forms in page which was causing email delivery issues
++ BugFix : Blog Carousel lightbox was missing
++ BugFix : Header Toolbar register form password fields removed.
++ BugFix : Layerslider buttons on responsive
++ Many more minor bug fixings and improvements.
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.1- 25 November 2013
+----------------------------------------------------------------------
+
++ Fixed. Skin.php issues in some servers
++ Fixed. when using WPML plugin masterkey settings stylings were not working correctly.
++ Fixed. Portfolio single post => breadcrumb now will bring custom slug
++ Fixed. Masterkey settings blog archive loop newspaper style were missing
++ Fixed. Raw JS shortcode were not working
++ Fixed. Option to disable image cropping in Woocomerce products loops
++ Fixed. Blog Social share were picking wrong posts
++ Added. “No More posts” translation string added
++ Fixed. Video Backgrounds Responsive
++ Added. Option to disable Next & Prev links in Portfolio and Blog single posts
++ Fixed. Main Navigation script were loading increased.
++ Fixed. Banner Video Responsive issues
++ Added. Columns short codes added to classic shortcode generator
++ Fixed. Shopping Cart were not working in Homepage and some other minor issues
++ Fixed. Ajax Portfolio on close or move to next item video was still playing.
++ Added. Process Steps icons are now linked when filled in.
++ Added. Revolution slider v4.05 added
++ Fixed. Blog Loops issue inside hidden tabs
++ Fixed. Testimonial slideshow small issue since v3.0
++ Fixed. Custom fonts were not working
++ Fixed. Some minor general bug fixings
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.02- 15 November 2013
+----------------------------------------------------------------------
+
++ Fixed. Header Social networks
++ Fixed. some styles were missing when Woocommerce is not enabled. 
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.01- 14 November 2013
+----------------------------------------------------------------------
+
++ JS script error that was causing some scripts fail to load.
++ Some responsive fixes.
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v3.0- 13 November 2013
+----------------------------------------------------------------------
+
++ New Feature. All New Shop design and added new elements
++ New Feature. All New Blog loops design. Newspaper style is multi column. Columns structure enhanced to have perfect alignment in all screen sizes Now you can change featured image height right from shortcode. New loop style added. speed improvement, social share is enhanced and many more.
++ New Feature. All new Portfolio loops design. Ajax portfolio feature added to modern style.
++ New Feature. Ajax Search.
++ New Feature. Header checkout revised and added items to shop can be viewed. you can optionally place shopping card in header toolbar, header section or disable it.
++ New Feature. Testimonials shortcode none carousel : Now you can set columns and all testimonials will be viewed in lists based on your preferred styles
++ New Feature. Option to disable header search
++ New Feature. Custom.css added to theme root for another way of overriding CSS rules if you don’t want to use child theme.
++ New Feature. Semi bold (600) option added to all typography font weight options.
++ New Feature. LayerSlider updated to most recent version.
++ New Feature. Revolution slider updated to most recent version.
++ New Feature. Option to disable comments and social share from blog loops
++ New Feature. Flexsldier updated to most recent version
++ New Feature. All jQuery plugins updated to recent versions.
++ New Feature. JS files added minified and added into one file for speed improvement.
++ New Feature. Form elements design revise
++ New Feature. Some widgets design revise.
++ New Feature. New tab shortcode style : simple with no boxed borders
++ New Feature. Now you can override blog, portfolio and new loops. Check theme root : portfolio-styles and blog-styles.
++ New Feature. Portfolio and portfolio carousel loop to filter by category option.
++ New Feature. Advanced Google map shortcode with all options to create any style of maps. you can make it full width using row => enable fullwidth
++ New Feature. URL option to employees items
++ New Feature. Option to change portfolio archive loop featured image height.
++ New Feature. PO files updated
++ New Feature. Option to add excerpt to shop loops. We have made it optionally so you can enable it form Masterkey => Advanced => Woocommerce => Excerpt For Products Loop 
++ New Feature. Dummy content updated.
++ Improvement. Responsive under construction template
++ Improvement. Now you can place clients, testimonials, slideshows shortcode into tabs shortcode.
++ Improvement. Search tooltip position in boxed version.
++ Improvement. Smooth scroll for One page concept revised and now Main Navigation current item highlight will change according to the section you are.
++ Improvement. Page Composer edit panel hight changed to 630px to work in 13Inch LCDs
++ Improvement. Employees loop image cross browser issue
++ Improvement. CSS files revised, minified for speed improvements
++ Improvement. Page Section sidebar responsive issues
++ Improvement. Page Section Video in full width issues fixed
++ Improvement. Responsive Main Navigation => Dropdown arrow colour will override from nav colour
++ Improvement. Allow HTML code to testimonial shortcode
++ Improvement. Allow HTML and shortcode content to FAQ posts
++ Improvement. Postion change for floating quick contact and go to top buttons when screen width is smaller than main grid width to avoid overleaping footer navigation  
++ Bug Fix. Header toolbar register form was not working as expected
++ Bug Fix. Transition removed from image shortcode image tag
++ Bug Fix. Image custom lightbox issue fixed.
++ Bug Fix. Divider shortcode bug when choosing “go to top” style
++ Bug Fix. Page section extra class option were not working
++ Bug Fix. Portfolio loops and portfolio carousel filter based on author option.
++ Bug Fix. Smooth scroll for anchor links were not working in some cases
++ Bug Fix. Custom Walker error in windows hosts
++ Bug Fix. Gravity form small issues
++ Bug Fix. Smooth scroll firefox issues
++ Bug Fix. Clients box shortcode colour were returning to default each time you were editing the shortcode.
++ Bug Fix. Portfolio carousel in boxed version images were calculating based on screen size rather than boxed width size
++ Bug Fix. Portfolio carousel fancy title supposed to be removed when option left empty
++ Bug Fix. Flexslider shortcode "Links to” option were not working properly.
++ Bug Fix. Image cropping issue for multi sites(Beta : please report if faced with any issues)
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v2.08- 23 October 2013
+----------------------------------------------------------------------
+
++ Improved. Main Navigation Responsive state & Search form added into it.
++ Added. Option to change Portfolio slug
++ Fixed. Gallery shortcode hover issue in touch devices.
++ Fixed. BBpress errors in theme-class.php
++ Fixed. Youtube was not working in blog newspaper style while viewing in Firefox.
++ Fixed. Page Composer templates section sub menu added scroll to add unlimited amount of page templates
++ Fixed. iCarousel Slideshow some options were not working.
++ Added. Option to disable image cropping for blog single post.
++ Added. Header Toolbar login form logout and edit profile links added.
++ Fixed. Portfolio carousel modern style fix for when the Row is not fullwidth enabled.
++ Fixed. Rows extra classes space issues
++ Fixed. Page Composer shortcode edit panel height issue in smaller laptops that was hiding save button.
++ Fixed. Button shortcode Text color skin.
++ Enhanced. all strip tags has been removed from all short codes.
++ Fixed. Sub footer navigation and copyright text colour option was not working.
++ Fixed. Custom class in page section were missing.
++ Fixed. some plugins were having conflicts with wp.editor class that used in theme media.
++ Fixed. Portfolio Carousel classic style custom link was not working
++ Added. now Milestone shortcode will animate in view port state.
++ Fixed. minor CSS & JS bug fixes and improvements.
+ 
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v2.06- 6 October 2013
+----------------------------------------------------------------------
+
++ Added. Option to change image shortcode margin bottom
++ Added. Homepage V2 template added to Documentation => Page templates.
++ Fixed. jQuery UI conflict with plugins (eg. EventOn)
++ Fixed. Some short codes that were not rendering
++ Fixed. Page Composer Template section delete button were missing
++ Fixed. Portfolio modern style columns styling issue
++ Fixed. Responsive issues in some elements
++ Fixed. Tabs icons issue 
++ Fixed. A lot of small bugs fixes
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v2.05- 4 October 2013
+----------------------------------------------------------------------
+
++ Added. Viewport animation to Content box and Custom Box shortcode
++ Added. Superlink option to Take a tour option, now you can have external links as well. please go to master key and update this option since its structure is changed.
++ Added. Option to completely disable image cropping for image shortcode
++ Added. Employee shortcode option to disable/enable descriptions.
++ Added. New testimonial slider style
++ Added. New style to social networks widget
++ Added. Framed style for icon box simple ultimate style
++ Added. Moving image shortcode
++ Added. Now you can insert short codes into pricing table content
++ Fixed. Tooltip shortcode z-index issue
++ Enhanced. Button outline shortcode skin changed to dark and light only with one option.
++ Fixed. Some issues in page composer that was returning warnings
++ Fixed. Many small bug fixes related to v2.0 versions
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v2.0- 1 October 2013
+----------------------------------------------------------------------
+
++ Brand New Page Composer
++ Brand New Theme settings with new design
++ New Portfolio Loop Style (Modern)
++ New Portfolio Carousel Style (Modern)
++ Video Backgrounds in Banner and Page section Shortcodes
++ New button style
++ New Search Form inside Main Navigation
++ Portfolio Single Post styling revised.
++ Pagination inside single posts revised
++ Header toolbar styling and scripts revised
++ Option to remove text shadow from page title
++ Options to change page title, page subtitle in each page
++ Footer Twitter Page Section added to each page
++ Options to add header toolbar, header, banner section border colour
++ Option to change the space between each item in main navigation top level
++ Options to change portfolio archive loop style, number of columns.
++ Raw JS, Raw HTML shortcodes
++ Contact Form 7 shortcode in page composer and access to the list of contact forms you have created
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v1.3.8.3 - 18 September 2013
+----------------------------------------------------------------------
+
++ changed. Image cropping function changed to support multisite.
++ fixed. Woocommerce sidebar issue that appeared in v1.3.7
++ fixed. mobile navigations mode to desktop was causing it to fail the main navigation sub items to disappear.
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v1.3.8.2 - 17 September 2013
+----------------------------------------------------------------------
+
++ fixed. Responsive navigation issue
++ added. new google font : : Source Sans Pro
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v1.3.8.1 - 15 September 2013
+----------------------------------------------------------------------
+
++ fixed. backend framework select boxes were having some styling issues.
++ fixed. woocommerce single product title
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v1.3.8 - 15 September 2013
+----------------------------------------------------------------------
+
++ added. bbPress compatibility
++ added. WPML language switcher for header toolbar
++ fixed. Classic navigation issue
++ fixed. Few minor issues
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v1.3.7 - 13 September 2013
+----------------------------------------------------------------------
+
++ added. Blog Single : option to disable page title
++ added. Blog Single : option to disable breadcrumb
++ added. Blog Single : page title align
++ added. Blog Single : page heading subtitle
++ added. Blog Single : background settings
++ added. Blog Single : slideshow settings
++ added. Portfolio Single : option to disable page title
++ added. Portfolio Single : option to disable breadcrumb
++ added. Portfolio Single : page title align
++ added. Portfolio Single : background settings
++ added. Portfolio Single : slideshow settings
++ added. news Single : option to disable page title
++ added. news Single : option to disable breadcrumb
++ added. news Single : page title align
++ added. news Single : page heading subtitle
++ added. news Single : background settings
++ added. news Single : slideshow settings
++ added. LayerSlider v4.6.1
++ added. Portfolio and News post types in menues
++ added. Disable portfolio single post title
++ added. Portfolio loop is up to 6 columns now
++ added. no-ipad no-iphone classes added, you can use them in any shortcode if you want to disable any of them
++ added. Custom URL to image shortcode, now you can add video to image shortcode lightbox as well.
++ added. Option to align navigation
++ added. Option to change responsive navigation text colour
++ added. New Dummy data added
++ enhanced. Masterkey settings custom css & js option
++ enhanced. Woocommerce cart and checkout responsive
++ enhanced. Portfolio and blog newspaper styles responsive issues
++ enhanced. LayerSlider button responsive in mobile view
++ enhanced. Content extra padding in mobile view
++ enhanced. Main navigation responsive issues.
++ enhanced. youtube related videos removed in blog single and blog loop
++ enhanced. Smooth scroll issue enhanced for creating "one page" concept via main navigation
++ enhanced. PO file updated.
++ fixed. Button styling conflict in footer section
++ fixed. Banner Builder issues related to fade effect
++ fixed. Masterkey textfields safe HTML added
++ fixed. Blog single share buttons issue in left sidebar
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v1.3.6 - 2 September 2013
+----------------------------------------------------------------------
+
++ Added. New shortcode : Milestone
++ Added Breadcrumb skin for light and dark backgrounds
++ Added. Page Section : background repeat option
++ Added. Custom Box : background position and repeat options
++ Added. Mega Menu : now its multi column and based on your sub items it can be divided from 2 to 6 columns
++ Fixed. Masterkey settings and other metaboxes localisations
++ Fixed. strict standard notices removed from page composer.
++ Fixed. When there are over 2000 posts the site was facing fatal error on memory reached to maximum.
++ Updated. .po files
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v1.3.5 - 30 August 2013
+----------------------------------------------------------------------
+
++ Fixed. Page Section inner Sidebar issue.
++ Fixed. Contact Form 7 Textarea width increased.
++ Added. Option to add google font character set
++ Fixed. Icon box title colour when link has been added were not working
++ Fixed. CodeStyling Plugin issues fixed.
++ Changed. Translation text domains has been changed to "mk_framework" : please update .po files.
++ Changed. Smooth scroll script changed with a better script.
++ Fixed. All SEO issues as well as site map page template added.
++ Added. Offset to FAQ post type shortcode
++ Fixed. WPML small issues related to Masterkey settings.
++ Improved. Quick contact and go to top buttons position take to the most corner to prevent overlapping with footer toolbar navigation
++ Fixed. Image Shortcode link issue in IE8
++ Added. Mailchmip form texts localised.
++ Updated. Documentation updated with more information
++ Added. Other demos masterkey options import data.
++ Fixed. Header tag line issue with "a" tags. please use double quotes (e.g.: <a href="#"></a>)
++ Fixed. Classic navigation issue when sticky menu is disabled.
++ Changed. Flickr widget script changed, please provide your flickr ID instead of username. for more info refer to its widget.
++ Improved. Many CSS and JS issues has been fixed in this update.
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v1.3.4 - 19 August 2013
+----------------------------------------------------------------------
+
++ Added. iPhone, iPhone retina, iPad, iPad retina home icon added.
++ Added. Custom page title for page metabox
++ Fixed. Demo 2 search form issue in responsive header.
++ Added. Clients loop link target option added.
++ Added. Portfolio Links target option
++ Added. Disable Portfolio permalink from title & image hover icon.
++ Added. Option to change main content responsive state
++ Added. Option to define content & sidebar widths.
++ Added. Option to change theme main grid width (from 960px 1380px).
++ Added. Antispambot function to all emails to prevent spamming.
++ Improved. Date formats revised.
++ Improved. Testimonials URL anchor added to company instead of author.
++ Changed. Date & Time replaced to the first item in header toolbar.
++ Added. Category meta data to single portfolio
++ Added. Subtitle option for single portfolio.
++ Added. Blog Carousel shortcode excerpt option added.
++ Fixed. Quick contact form disable/enable option fixed.
++ Added. Process builder URL option added to title.
++ Added. Option to disable blog loop featured image lightbox globally through shortcode option.
++ Fixed. Page title tag changed to H1.
++ Fixed. Twitter widget title issue in responsive layout.
++ improved. some small issues in single news page responsive layout
++ Added. Revolution Slider updated to latest version.
++ Fixed. Boxed/full layout in page options were not working when globally layout set to boxed. now you can set a page full width even globally set to boxed layout.
++ Fixed. Instagram widget JS related to WP3.6 issues fixed.
++ Updated. PO files updated.
++ Added. target to new window option added to all social network icons throughout the theme.
++ Fixed. Small issues in header sticky.
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v1.3.3 - 11 August 2013
+----------------------------------------------------------------------
+
++ Improved. Responsive Navigation UI has changed and improved.
++ Fixed. Google Analytics small bug
++ Improved. Nice Scroll styling and interaction improved.
++ Added. Header toolbar Responsive : Header Toolbar Navigation, Social Networks, Language Navigation and Search Form added.
++ Added. Option to enable/disable page title in homepage.
++ Added. Custom Links to gallery shortcode. 
++ Added. Quick contact form close if clicked on floating icon.
++ Added. Contact info widget and shortcode person and company options added 
++ Added. Portfolio loop custom permalink to any URL including external links (find it in portfolio single post edit)
++ Added. Header toolbar logged-in username will be viewed.
++ Added. Option to enable/disable blog loop featured image lightbox.
++ Added. Icon boxes, now titles also will be link if URL provided.
++ Added. Clearboth shortcode added to page composer
++ Added. Event Countdown shortcode.
++ Added. Option to disable/enable blog loop share/comments section.
++ Added. Page section distance to header when used the first element, now option added which you can enable it to remove 120px top distance(First section In current page)
++ Added. Documentation Parallax backgrounds usage info added.
++ Improved. Sticky header boxed layout will be boxed as well.
++ Improved. Small SEO issues
++ Fixed. Safari/Windows logo issue fixed.
++ Fixed. Woocommerce variable images issue fixed.
++ Fixed. IE9 & older FF versions Responsive issues fixed.
++ Fixed. Multisite featured images bug fixed.
++ Fixed. Testimonials viewport animation queue on load added.
++ Fixed. Header Notification small issue which were causing it to not appear.
++ Fixed. Archive Loop Left margin removed.
++ Fixed. Single blog post share/comments in boxed layout cropping bug fixed.
++ Many minor bugs has been fixed in this version.
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v1.3.2 - 4 August 2013
+----------------------------------------------------------------------
+
++ Added. Background Parallax for all sections (Body, Header, Banner, Page and Footer. this option is only accessible from Jupiter Page Options => Background Selector Panel)
++ Fixed. Yaost Plugin double title issue
++ Fixed. All SEO issues fixed.
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v1.3.1 - 3 August 2013
+----------------------------------------------------------------------
+
++ Added. Wordpress 3.6 compatible
++ Added. LayerSlider WP 3.6 compatible (please check plugins.zip and read note file)
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v1.3 - 2 August 2013
+----------------------------------------------------------------------
+
++ Added. Nice scroll option added. you can enable/disable as you wish.
++ Added. an option to change sticky header opacity in fixed state.
++ Added. Blog Loop Showcase offset option
++ Added. Employees Loop offset option.
++ Added. Option to change the max width to change between Desktop navigation to responsive.
++ Improved. News loop styling and responsive issues
++ Improved. Sticky Header animation improved.
++ Fixed. Footer outer paddings added to match content layout 
++ Fixed. Main Navigation sub menu items word-wrap issues fixed to make long items fit the content
++ Fixed. View Port Animation become faster and load sooner
++ Fixed. Classic style header logo centred issue before page load
++ Fixed. Page Title description margin bottom.
++ Fixed. Woocommerce when no short description added, causing the footer to break
++ Fixed. Layerslider prev/next arrows z-index issue
++ Fixed. Firefox Sticky header issue
++ Minor CSS and JS issues
++ Some small php notifications fixed.
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v1.2 - 26 July 2013
+----------------------------------------------------------------------
+
++ Added : Option to stretch background (background-cover property for all backgrounds)
++ Audio Player shortcode
++ Fixed : Responsive Navigation hover issue fixed
++ Added : Smooth scroll feature added for all anchor in-page navigations.
++ Fixed : Some SEO issues regarding Headings.
++ Added : Option to change Main Navigation top level text hover color
++ Added : Option to disable Header Title from Shop loop page, Product Archive Page and Single Product Page
++ Added : Option to disable Auto playing from Clients shortcode
++ Fixed : Footer logo issue
++ Fixed : minor issues in Twitter widget
++ Enhanced : Sub-nav widget to look better in footer
++ Added : option to disable breadcrumbs globally (General/Header)
++ Added : Random order option for all shortcode loops
++ Added : Facebook Like custom URL and column based structure
++ Added : option to change the header toolbar search form input background and text colors
++ Background selector and front-end background properties enhanced
++ Small minor reported bug fixes.
+
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log V1.1.5 - 22 July 2013
+----------------------------------------------------------------------
+
++ Removed. Text Block paragraph margin bottom option removed. after this should be handled via custom CSS rules by adding element class.
++ Added. option to disable header toolbar checkout form
++ Fixed. Blog Newspaper Style date issue, was showing wrong because of wrong date format
++ Fixed. Viewport Animation in fade effect was not working in firefox.
++ Fixed. Responsive images issue in firefox
++ Added. Woocommerce Products carousel now can enable featured post to show only featured products.
++ Fixed. Twitter Feed Shortcode styling issue
++ Fixed. Shop loop with sidebar layout responsive issue
++ Page templates added to documentation.
++ Documentation enhanced.
++ Demo content updated and specific custom post types export added to only choose what to import rather than all.
+
+
+
+
+
+
+----------------------------------------------------------------------
+Update Log v1.1 - 18 July 2013
+----------------------------------------------------------------------
+
++ Added. Grid style loop to archives
++ Fixed. Page Title left and right paddings added
++ Added. Custom page title for portfolio, blog posts and news.
++ Fixed. Portfolio 4 column responsive issue
++ Added. Vertical tabs right side.
++ Fixed. Icons filter was not working in page composer.
++ Added. Documentation enhanced.
++ Minor CSS bug fixes

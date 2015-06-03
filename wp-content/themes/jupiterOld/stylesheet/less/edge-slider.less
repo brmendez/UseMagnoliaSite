@@ -1,0 +1,407 @@
+.mk-edge-slider {
+	.mk-grid {
+		position: relative;
+		z-index: 14;
+	}
+	.swiper-slide {
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		.edge-slide-content {
+			margin-top: 100px;
+		}
+		&.left_top .edge-slide-content,
+		&.center_top .edge-slide-content,
+		&.right_top .edge-slide-content {
+			margin-top: 50px;
+		}
+		&.center_top,
+		&.center_center,
+		&.center_bottom {
+			text-align: center;
+			.edge-slide-content {
+				margin-right: auto;
+				margin-left: auto;
+			}
+		}
+		&.right_top,
+		&.right_center,
+		&.right_bottom {
+			.edge-slide-content {
+				float: right;
+			}
+		}
+	}
+	&:hover {
+		.mk-edge-next,
+		.mk-edge-prev {
+			.opacity(80);
+		}
+	}
+	.mk-edge-next,
+	.mk-edge-prev {
+		position: absolute;
+		top: 50%;
+		z-index: 10;
+		width: 60px;
+		height: 60px;
+		background-color: rgba(0,
+		0,
+		0,
+		0.4);
+		color: #fff;
+		text-align: center;
+		cursor: pointer;
+		i {
+			font-size: 16px;
+			line-height: 60px;
+		}
+		&:hover {
+			background-color: rgba(0, 0, 0, 0.6);
+			.opacity(100);
+		}
+		.opacity(0);
+		.border-radius(2px);
+	}
+	.mk-edge-next {
+		right: 30px;
+	}
+	.mk-edge-prev {
+		left: 30px;
+	}
+	.edge-slide-content {
+		&.caption-light .edge-title,
+		&.caption-light .edge-desc {
+			color: #fff;
+		}
+		&.caption-dark .edge-title,
+		&.caption-dark .edge-desc {
+			color: #252525;
+		}
+	}
+	.edge-title {
+		margin-bottom: 20px;
+		font-weight: 400;
+		font-size: 46px;
+	}
+	.edge-desc {
+		font-weight: 200;
+		font-size: 25px;
+		line-height: 40px;
+		margin-bottom: 20px;
+		
+	}
+
+
+	.edge-default_anim {
+		.edge-title {
+			.transition(all 0.35s ease-in-out 0.8s);
+		}
+
+		.edge-desc {
+			.transition(all 0.35s ease-in-out 0.9s);
+		}
+		.edge-buttons {
+			.transition(all 0.35s ease-in-out 1s) !important;
+			a {
+				.transition(all .2s ease-in-out);
+			}
+		}
+		.edge-title,
+		.edge-desc,
+		.edge-buttons {
+			.translate(0, 70px);
+			.opacity(0);
+		}
+	}
+
+	.swiper-slide-active .edge-default_anim{
+		.edge-title,
+		.edge-desc,
+		.edge-buttons {
+			.translate(0, 0);
+			.opacity(100);
+		}
+	}
+
+	.edge-fade-in,
+	.edge-slide-top,
+	.edge-slide-left,
+	.edge-slide-bottom,
+	.edge-slide-right,
+	.edge-scale-down {
+		.transition(all 0.8s cubic-bezier(0.77, 0, 0.175, 1) 0.7s);
+		.opacity(0);
+	}
+	.swiper-slide-active {
+		.edge-fade-in {
+			.opacity(100);
+		}
+	}
+	.edge-slide-top {
+		.translate(0, -300%);
+	}
+	.swiper-slide-active {
+		.edge-slide-top {
+			.translate(0, 0);
+			.opacity(100);
+		}
+	}
+	.edge-slide-left {
+		.translate(-300%, 0);
+	}
+	.swiper-slide-active {
+		.edge-slide-left {
+			.translate(0, 0);
+			.opacity(100);
+		}
+	}
+	.edge-slide-bottom {
+		.translate(0, 300%);
+	}
+	.swiper-slide-active {
+		.edge-slide-bottom {
+			.translate(0, 0);
+			.opacity(100);
+		}
+	}
+	.edge-slide-right {
+		.translate(300%, 0);
+	}
+	.swiper-slide-active {
+		.edge-slide-right {
+			.translate(0, 0);
+			.opacity(100);
+		}
+	}
+	.edge-scale-down {
+		.scale(1.3);
+	}
+	.swiper-slide-active {
+		.edge-scale-down {
+			.opacity(100);
+			.scale(1);
+		}
+	}
+	.edge-flip-x,
+	.edge-flip-y {
+		-webkit-animation-fill-mode: both;
+		-moz-animation-fill-mode: both;
+		-o-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-perspective: 1000;
+		opacity: 0;
+		-webkit-animation-duration: 0.6s;
+		-moz-animation-duration: 0.6s;
+		-o-animation-duration: 0.6s;
+		animation-duration: 0.6s;
+		-webkit-animation-delay: 1s;
+		-moz-animation-delay: 1;
+		-o-animation-delay: 1s;
+		animation-delay: 1s;
+	}
+	.swiper-slide-active {
+		.edge-flip-x {
+			-webkit-animation-name: mk_flip_x;
+			-moz-animation-name: mk_flip_x;
+			-o-animation-name: mk_flip_x;
+			animation-name: mk_flip_x;
+			opacity: 1;
+		}
+	}
+	.swiper-slide-active {
+		.edge-flip-y {
+			-webkit-animation-name: mk_flip_y;
+			-moz-animation-name: mk_flip_y;
+			-o-animation-name: mk_flip_y;
+			animation-name: mk_flip_y;
+			opacity: 1;
+		}
+	}
+
+
+
+
+	.edge-slider-holder {
+		z-index: 10;
+	}
+	.edge-slider-loading {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 20;
+		left: 0;
+		top: 0;
+		background: #fff url(../../images/edge-loading.gif) center center no-repeat;
+	}
+	.edge-skip-slider {
+		position: absolute;
+		left: 50%;
+		bottom: 20px;
+		cursor: pointer;
+		z-index: 10;
+		margin: -24px 0 0 -24px;
+		i {
+			color: #fff;
+			font-size: 48px;
+		}
+	}
+	@media handheld, only screen and (max-width:1140px) {
+		.mk-grid {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			padding: 0 20px;
+		}
+		.edge-title {
+			font-weight: 600;
+			font-size: 40px;
+		}
+		.edge-desc {
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 34px;
+		}
+		.edge-slide-content {
+			width: 80%;
+		}
+	}
+	@media handheld, only screen and (max-width:700px) {
+		.mk-grid {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			padding: 0 10px;
+		}
+		.mk-edge-next,
+		.mk-edge-prev,
+		.edge-skip-slider {
+			display: none;
+		}
+		.edge-title {
+			font-weight: 700;
+			font-size: 22px;
+		}
+		.edge-desc {
+			font-size: 14px;
+			line-height: 22px;
+		}
+		.mk-button {
+			padding: 10px 12px !important;
+			font-size: 10px !important;
+		}
+		.mk-button-align.left,
+		.mk-button-align.center,
+		.mk-button-align.right {
+			//float: left !important;
+			//width: auto !important;
+			width: auto !important;
+			margin-bottom: 6px;
+		}
+		.edge-slide-content {
+			width: 100%;
+		}
+	}
+}
+
+/* ===============================================================
+Basic Swiper Styles
+================================================================ */
+.swiper-container {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	margin: 0 auto;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden; /* Fix of Webkit flickering */
+}
+.swiper-wrapper {
+	position: relative;
+	width: 100%;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-timing-function: ease;
+	-ms-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+	-webkit-transition-duration: 0s;
+	-moz-transition-duration: 0s;
+	-ms-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s;
+	-webkit-transition-property: -webkit-transform, left, top;
+	-moz-transition-property: -moz-transform, left, top;
+	-ms-transition-property: -ms-transform, left, top;
+	-o-transition-property: -o-transform, left, top;
+	transition-property: transform, left, top;
+	-webkit-transform: translate3d(0px, 0, 0);
+	-moz-transform: translate3d(0px, 0, 0);
+	-ms-transform: translate3d(0px, 0, 0);
+	-o-transform: translate3d(0px, 0, 0);
+	-o-transform: translate(0px, 0px);
+	transform: translate3d(0px, 0, 0);
+}
+.swiper-free-mode > .swiper-wrapper {
+	margin: 0 auto;
+	-webkit-transition-timing-function: ease-out;
+	-moz-transition-timing-function: ease-out;
+	-ms-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+.swiper-slide {
+	float: left;
+}
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+	-ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+	-ms-touch-action: pan-x;
+}
+
+/* ===============================================================
+Your custom styles,
+here you need to specify container's and slide's
+sizes,
+pagination,
+etc.
+================================================================ */
+.swiper-container {
+	/* height: 100px;
+	*/
+	/* Specify Swiper's Size:  */
+	
+	/* width:200px;
+	*/
+}
+.swiper-slide {
+	/* height: 100%;
+	*/
+	/* Specify Slides's Size:  */
+		
+	/* width:100%;
+	*/
+}
+.swiper-slide-active {
+	/* Specific active slide styling:  */
+}
+.swiper-slide-visible {
+	/* Specific visible slide styling:  */
+}
+
+/* ===============================================================
+Pagination Styles
+================================================================ */
+.swiper-pagination-switch {
+	/* Stylize pagination button:  */
+}
+.swiper-active-switch {
+	/* Specific active button style:  */
+}
+.swiper-visible-switch {
+	/* Specific visible button style:  */
+}
